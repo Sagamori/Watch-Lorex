@@ -84,7 +84,7 @@ main{
     color: #cfa670;
 }
 .sec_gallery{
-    width: 70%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
