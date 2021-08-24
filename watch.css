@@ -108,11 +108,11 @@ main{
     text-align: center;
     font-size: 18px;
     margin-top: 1rem;
+    transition:  .3s ;
 }
 .a_style:hover{
     margin-top: 0px;
     padding-top: 1%;
-    transition-duration:  500ms;
 }
 .slider{
     background: url(/photoes/watch.jpg)center, no-repeat;
