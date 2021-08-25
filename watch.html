@@ -13,7 +13,7 @@
         <div class="div_logo">
             <a href="#" class="logo_link">
                 <h1 class="logo">Lorex</h1>
-                <h6 class="slogan">Only legends wear Lorex</h6>
+                <h6 class="slogan">Just wear it</h6>
             </a>
         </div>
         <div class="div_search">
@@ -21,20 +21,22 @@
             <i class="fas fa-search"></i>
         </div>
         <div class="div_account">
-            <div class="account">
+            <div class="account" id="myaccount">
                 <i class="far fa-user"></i>
                 <p class="account_para">My Account</p>  
             </div>
             <div class="shoping">
-                <i class="fas fa-shopping-cart"></i>
+                <i class="fas fa-shopping-cart" id="shop_cart"></i>
             </div>
         </div>
     </nav>
+    <!-- <iframe src="about:blank" id="frame" width="0"
+    height="0" name="myframe"></iframe> -->
     <main>
         <div class="div_library">
-            <a class="a_style" href="#">Men's</a>
-            <a class="a_style" href="#">Woman's</a>
-            <a class="a_style" href="#">Sales</a>
+            <a class="a_style" href="#" id="men">Men's</a>
+            <a class="a_style" href="#" id="woman">Woman's</a>
+            <a class="a_style" href="#" id="sales">Sales</a>
         </div>
         <section class="sec_gallery">
             <div class="slider">  
@@ -129,7 +131,7 @@
                 </div>
             </div>
         </section>
-        <button class="order-btn">Order</button>
+        <button class="order-btn" id="order_btn">Order</button>
     </footer>
 </body>
 <script src="/watch.js"></script>
