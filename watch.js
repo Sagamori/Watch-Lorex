@@ -4,7 +4,7 @@ let myAccount = document.getElementById('myaccount');
     womenWatch = document.getElementById('women');
     sale = document.getElementById('sales');
     orderBtn = document.getElementById('order_btn');
-    buyBtn = document.querySelectorAll('.buybtn');
+    buyBotton = document.getElementsByClassName('buybtn')
 
 shopCart.addEventListener('click', (e)=>{
     e.preventDefault();
@@ -15,8 +15,14 @@ shopCart.addEventListener('click', (e)=>{
 //     alert('create account')
 // })
 
+
 let features = 'height=500,width=600'
-let url = 'Login.html'
+let url = 'signin.html'
 myAccount.addEventListener('click', (e)=>{
     window.open( url, '_blank', features)
+})
+
+buyBotton.addEventListener('click', (e)=>{
+    e.preventDefault()
+    let buyBotton = document.getElementsByClassName('buybtn')
 })
