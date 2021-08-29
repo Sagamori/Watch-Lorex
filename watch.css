@@ -11,13 +11,16 @@ body{
     background-attachment: fixed;
 }
 nav{
+    position: fixed;
+    width: 100%;
     background-color: #fff;
     display: flex;
-    padding: 0px 60px;
+    padding:0px 60px;
     justify-content: space-between;
     align-items: center;
     height: 5rem;
     color: #3d3d3d;
+    z-index: 1;
 }
 .logo_link{
     text-decoration: none;
@@ -28,7 +31,7 @@ nav{
     letter-spacing: 4px;
 }
 .div_search{
-    width: 35%;
+    width: 30%;
     height: 40%;
     position: relative;
     display: flex;
@@ -69,6 +72,7 @@ nav{
     align-items: center;
     width: 11%;
     cursor: pointer;
+    margin-right: 90px;
 }
 .account{
     display: flex;
@@ -77,6 +81,7 @@ nav{
     align-items: center;
 }
 main{
+    padding-top: 5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -246,6 +251,7 @@ footer{
     margin-top: 1.5rem;
     color: rgb(138, 137, 137);
     transition: 300ms;
+    width: 45%;
 }
 .links:hover{
     color: #cfa670;
@@ -255,6 +261,8 @@ footer{
     width: 80%;
     display: flex;
     justify-content: space-between;
+}
+.soc-links a{
     color: #cfa670;
 }
 .para{
