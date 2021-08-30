@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: cursive;
     background: url(/photoes/background.jpg) center, no-repeat;
@@ -94,6 +97,7 @@ main{
     justify-content: center;
     align-items: center;
     background-color: #fff;
+    overflow: hidden;
 }
 .sec_gallery:hover{
     border-left: 1px solid #cfa670;
@@ -167,7 +171,14 @@ main{
         background-size: cover;
     }
 }
-
+.sale_title{
+    color: rgb(255, 0, 0);
+    margin-top: 5rem;
+    border-bottom: 2px dashed rgb(255, 0, 0);
+}
+span{
+    color: #cfa670;
+}
 .div_container{
     width: 100%;
 }
@@ -203,13 +214,14 @@ main{
     outline: none;
     border: transparent;
     border-radius: 50px;
-    background-color: #cfa670;
+    background-color: #ff0000;
     font-size: 15px;
     color: #fff;
     cursor: pointer;
 }
 
 .div_pros{
+    border-top: 1px dashed;
     display: flex;
     flex-direction: column;
     padding: 0px 80px;
@@ -447,3 +459,4 @@ input[type="email"]{
         font-size: 8px;
     }
 }
+
