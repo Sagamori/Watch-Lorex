@@ -1,28 +1,20 @@
 let myAccount = document.getElementById('myaccount');
     shopCart = document.getElementById('shop_cart');
-    menWatch = document.getElementById('men');
-    womenWatch = document.getElementById('women');
-    sale = document.getElementById('sales');
     orderBtn = document.getElementById('order_btn');
     buyBotton = document.getElementsByClassName('buybtn')
 
 shopCart.addEventListener('click', (e)=>{
     e.preventDefault();
-    alert('add items')
+    alert('By clicking this button you can add the items')
 })
-// myAccount.addEventListener('click', (e)=>{
-//     e.preventDefault()
-//     alert('create account')
-// })
 
+orderBtn.addEventListener('click', (e)=>{
+    e.preventDefault();
+    alert('By clicking this button you can order new watch')
+})
 
 let features = 'height=500,width=600'
 let url = 'signin.html'
 myAccount.addEventListener('click', (e)=>{
     window.open( url, '_blank', features)
-})
-
-buyBotton.addEventListener('click', (e)=>{
-    e.preventDefault()
-    let buyBotton = document.getElementsByClassName('buybtn')
 })

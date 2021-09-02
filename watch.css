@@ -98,10 +98,10 @@ main{
     align-items: center;
     background-color: #fff;
     overflow: hidden;
+    transition: 500ms;
 }
 .sec_gallery:hover{
-    border-left: 1px solid #cfa670;
-    border-right: 1px solid #cfa670;
+    background-color: rgb(245, 244, 244);
 }
 .div_library{
     width: 50%;
@@ -219,6 +219,9 @@ span{
     color: #fff;
     cursor: pointer;
 }
+.buybtn:hover{
+    background-color: #d81b1b;
+}
 
 .div_pros{
     border-top: 1px dashed;
@@ -235,6 +238,93 @@ span{
 .pros img{
     height: 400px;
     width: 450px;
+}
+.mans_title{
+    margin: 40px;
+    border-bottom: 2px dashed;
+}
+.slideshow_man{
+    position: relative;
+    width: 70%;
+    height: 600px;
+    overflow: hidden;
+}
+.slideshow_man input{
+    position: absolute;
+    visibility: hidden;
+}
+.navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+.bar{
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid #cfa670; 
+    margin: 6px 30px; 
+    cursor: pointer;
+    transition: 600ms;
+}
+  
+.bar:hover{
+    background: #cfa670;
+}
+.slides_man{
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+.manwatch_imgs{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: 100%;
+}
+.manwatch_imgs button{
+    border-radius: 30px;
+    border: transparent;
+    background-color: red;
+    color: #fff;
+    position: absolute;
+    top: 91.5%;
+    left: 5%;
+    height: 5%;
+    width: 10%;
+    transition: 800ms;
+}
+.manwatch_imgs button:hover{
+    background-color: #fff;
+    color: red;
+    letter-spacing: 5px;
+}
+.manwatch_imgs img{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+#r1:checked ~ .s1{
+    margin-left: 0;
+    transition: 500ms;
+}
+#r2:checked ~ .s1{
+    margin-left: -20%;
+    transition: 500ms;
+}
+#r3:checked ~ .s1{
+    margin-left: -40%;
+    transition: 500ms;
+}
+#r4:checked ~ .s1{
+    margin-left: -60%;
+    transition: 500ms;
+}
+#r5:checked ~ .s1{
+    margin-left: -80%;
+    transition: 500ms;
 }
 footer{
     background-color: rgb(39, 39, 39);
@@ -459,4 +549,3 @@ input[type="email"]{
         font-size: 8px;
     }
 }
-
