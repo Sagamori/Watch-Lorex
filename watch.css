@@ -294,7 +294,7 @@ span{
     left: 5%;
     height: 5%;
     width: 10%;
-    transition: 800ms;
+    transition: 500ms;
 }
 .manwatch_imgs button:hover{
     background-color: #fff;
@@ -401,6 +401,11 @@ input[type="email"]{
     height: 5%;
     width: 5%;
     border: transparent;
+    transition: 300ms;
+}
+.order-btn:hover{
+    background-color: #000;
+    color: #fff;
 }
 @media ALl and (max-width: 1445px) {
     .account_para{
