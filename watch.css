@@ -239,17 +239,17 @@ span{
     height: 400px;
     width: 450px;
 }
-.mans_title{
+.newwatches{
     margin: 40px;
     border-bottom: 2px dashed;
 }
-.slideshow_man{
+.slideshow{
     position: relative;
     width: 70%;
     height: 600px;
     overflow: hidden;
 }
-.slideshow_man input{
+.slideshow input{
     position: absolute;
     visibility: hidden;
 }
@@ -273,18 +273,18 @@ span{
 .bar:hover{
     background: #cfa670;
 }
-.slides_man{
+.slides{
     width: 500%;
     height: 100%;
     display: flex;
 }
-.manwatch_imgs{
+.watch_imgs{
     display: flex;
     justify-content: center;
     width: 20%;
     height: 100%;
 }
-.manwatch_imgs button{
+#buy_btn1{
     border-radius: 30px;
     border: transparent;
     background-color: red;
@@ -296,12 +296,12 @@ span{
     width: 10%;
     transition: 500ms;
 }
-.manwatch_imgs button:hover{
+#buy_btn1:hover{
     background-color: #fff;
     color: red;
     letter-spacing: 5px;
 }
-.manwatch_imgs img{
+.watch_imgs img{
     width: 100%;
     height: 100%;
     overflow-x: hidden;
