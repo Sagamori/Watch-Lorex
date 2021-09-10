@@ -248,6 +248,7 @@ span{
     width: 70%;
     height: 600px;
     overflow: hidden;
+    margin: 2rem;
 }
 .slideshow input{
     position: absolute;
@@ -284,7 +285,7 @@ span{
     width: 20%;
     height: 100%;
 }
-#buy_btn1{
+.buy_btn{
     border-radius: 30px;
     border: transparent;
     background-color: red;
@@ -296,7 +297,7 @@ span{
     width: 10%;
     transition: 500ms;
 }
-#buy_btn1:hover{
+.buy_btn:hover{
     background-color: #fff;
     color: red;
     letter-spacing: 5px;
@@ -421,7 +422,7 @@ input[type="email"]{
         height: 150px;
         width: 150px;
     }
-    .manwatch_imgs button{
+    .buy_btn{
         left: 2%;
         top: 80%;
     }
@@ -465,7 +466,7 @@ input[type="email"]{
     .reverse{
         flex-direction: column-reverse;
     }
-    .slideshow_man{
+    .slideshow{
         height: 400px;
     }
 }
@@ -538,10 +539,10 @@ input[type="email"]{
     .div_offers{
         justify-content: center;
     }
-    .slideshow_man{
+    .slideshow{
         height: 300px;
     }
-    .manwatch_imgs button{
+    .buy_btn{
         height: 10%;
     }
     footer{
@@ -571,7 +572,7 @@ input[type="email"]{
     .div_price p{
         font-size: 14px;
     }
-    .slideshow_man{
+    .slideshow{
         height: 200px;
     }
     .bar{

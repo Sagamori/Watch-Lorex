@@ -1,6 +1,6 @@
 let myAccount = document.getElementById('myaccount');
 let features = 'height=500,width=600'
-let url = 'signin.html'
+let url = 'signinindex.html'
 myAccount.addEventListener('click', (e)=>{
     window.open( url, '_blank', features)
 })
@@ -11,7 +11,7 @@ let saleButton3 = document.getElementById('sale_btn3');
 let saleButton4 = document.getElementById('sale_btn4');
 let saleButton5 = document.getElementById('sale_btn5');
 let saleButton6 = document.getElementById('sale_btn6');
-let buyBtn_Men = document.getElementById('buy_btn1');
+let buyBtn_Men = document.getElementById('buy_btn');
 let shopCart = document.getElementById('shop_cart');
 let orderBtn = document.getElementById('order_btn');
 
