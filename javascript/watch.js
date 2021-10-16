@@ -14,6 +14,7 @@ let saleButton6 = document.getElementById('sale_btn6');
 let buyBtn_Men = document.getElementById('buy_btn');
 let shopCart = document.getElementById('shop_cart');
 let orderBtn = document.getElementById('order_btn');
+let subscribeBtn = document.getElementById('subscribe')
 
 let button = new Map();
 button.set(saleButton1, 'Sale at ' + saleButton1.textContent);
@@ -23,8 +24,9 @@ button.set(saleButton4, 'Sale at ' + saleButton4.textContent);
 button.set(saleButton5, 'Sale at ' + saleButton5.textContent);
 button.set(saleButton6, 'Sale at ' + saleButton6.textContent);
 button.set(buyBtn_Men, "Do you want to buy this Lorex watch?");
-button.set(shopCart, 'By clicking this button you can add the items')
-button.set(orderBtn, 'By clicking this button you can order new watch')
+button.set(shopCart, 'By clicking this button you can add the items');
+button.set(orderBtn, 'By clicking this button you can order new watch');
+button.set(subscribeBtn, 'You have subscribed this page')
 
 for (let [btn, text] of button) {
     btn.addEventListener("click", (e)=>{
